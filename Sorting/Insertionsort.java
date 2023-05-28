@@ -1,11 +1,11 @@
 package Sorting;
 
-import java.Util.Arrays;
+import java.util.Arrays;
 
 public class Insertionsort{
     public static void main(String[] args){
         int arr[] = {4, 5, 1, 2, 3};
-        selection(arr);
+        insertion(arr);
         System.out.println(Arrays.toString(arr));
     }
    
@@ -23,7 +23,7 @@ public class Insertionsort{
     
 
 
-static void swap(int[], int first, int second){
+static void swap(int[] arr, int first, int second){
     int temp = arr[first];
     arr[first] = arr[second];
     arr[second] = temp;

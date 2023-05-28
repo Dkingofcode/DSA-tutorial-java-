@@ -1,6 +1,7 @@
 package Sorting;
 
-import java.utils.List;
+import java.util.ArrayList;
+import java.util.List;
 
 class FindMissingNums{
     public List<Integer> findDisappearedNumbers(int[] nums){
@@ -8,24 +9,24 @@ class FindMissingNums{
         while(i < nums.length){
           int correct = nums[i] - 1;
           if(nums[i] != nums[correct]){
-            swap(nums, i, correct)
+            swap(nums, i, correct);
           }else{
             i++;
           }  
         }
         
-        List<Integer> ans = new ArrayList<> ();
+         List<Integer> ans = new ArrayList<> ();
         for(int index = 0; index < nums.length; index++){
           if(nums[index] != index + 1){
-            ans.add(index + 1);
+            // ans.add(index + 1);
           }  
         }
-        return ans;
+         return ans;
     }
 
     static void swap(int[] arr, int first, int second){
-        int temp = arr[first]
-        arr[first] = arr[second]
+        int temp = arr[first];
+        arr[first] = arr[second];
         arr[second] = temp;
     }
 }

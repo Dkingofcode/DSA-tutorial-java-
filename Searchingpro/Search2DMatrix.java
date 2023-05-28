@@ -6,7 +6,7 @@ int rows = 3; // number of rows in the matrix
 int columns = 4; // number of columns in the matrix
 
 // Create a new matrix with the specified number of rows and columns
-int[][] matrix = new int[rows][columns];
+//int[][] matrix = new int[rows][columns];
 int target = 4;
 // Initialize the matrix with values
 int[][] matrix = {
@@ -16,7 +16,7 @@ int[][] matrix = {
  };
 
  int result = searchMatrix(matrix, target);
- System.out.println("Element found at index: " + result)
+ System.out.println("Element found at index: " + result);
  }
 
  static int searchMatrix(int[][] matrix, int target){

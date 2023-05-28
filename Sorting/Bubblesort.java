@@ -1,6 +1,6 @@
 package Sorting;
 
-import java.Util.Arrays;
+import java.util.Arrays;
 
 public class Bubblesort {
     public static void main(String[] args){
@@ -12,7 +12,7 @@ public class Bubblesort {
     static void bubble(int[] arr){
         boolean swapped;
         // run the steps n-1 times
-        for (int i = 0; arr.length; i++){
+        for (int i = 0; i < arr.length; i++){
             swapped = false;
             // for each step, max item will come at the last respective index
            for(int j = 1; j < arr.length - i; j++){

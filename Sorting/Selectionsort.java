@@ -1,6 +1,6 @@
 package Sorting;
 
-import java.Util.Arrays;
+import java.util.Arrays;
 
 public class Selectionsort{
     public static void main(String[] args){
@@ -20,7 +20,7 @@ public class Selectionsort{
     
 
 
-static void swap(int[], int first, int second){
+static void swap(int[] arr, int first, int second){
     int temp = arr[first];
     arr[first] = arr[second];
     arr[second] = temp;
