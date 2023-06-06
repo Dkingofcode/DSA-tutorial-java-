@@ -12,6 +12,7 @@ public class MagicNumber {
             ans += last * base;
             base = base * 5;
         }
+        
         System.out.println(ans);
     }
 }
