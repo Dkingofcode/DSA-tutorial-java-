@@ -33,15 +33,15 @@ public class LetterComb {
     
     ArrayList<String> list = new ArrayList<>();
 
-    for(int i = (digit -1) * 3; i < digit * 3; i++ ){
+    for (int i = (digit - 1) * 3; i < digit * 3; i++){
       char ch = (char) ('a' + i);
       list.addAll(padRet(p + ch, up.substring(1)));
     }
     return list;
   }
-
-
-
+    
+     
+      
    static int padCount(String p, String up){
      if (up.isEmpty()){
         return 1;
