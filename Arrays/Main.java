@@ -20,11 +20,7 @@
         //int[] rollnumber = {23, 12, 45, 32, 15};
    
         int[] rollnumber; // declaration of array, rollnumber array is getting defined in the stack
-        rollnumber = new int[5]; // initialization: this where the actual object creation takes place
-   
-       
-   
-   
+        rollnumber = new int[5]; // initialization: this where the actual object creation takes place  
    
    
    
