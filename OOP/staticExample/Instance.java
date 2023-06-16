@@ -5,6 +5,7 @@ public class Instance {
       Human kunal = new Human(22, "Kunal", 10000, true);
       Human rahul = new Human(23, "Harry", 209859, false);
 
-      System.out.println(kunal.name);
+      System.out.println(kunal.population);
+      System.out.println(rahul.population);
    }    
 }
