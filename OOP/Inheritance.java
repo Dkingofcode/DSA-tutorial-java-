@@ -4,7 +4,9 @@ public class Inheritance {
    
    
    public class Box {
-    double l;
+    public Box(double l2, double h2, double w2) {
+      }
+   double l;
     double h;
      double w;
    }
